@@ -28,7 +28,7 @@ jobs:
         echo "Fin del login"
     - name: Build Docker Image
       run: |
-        docker build -t jdavid198/docker-github:1.1.0 .
+        docker build -t jdavid198/docker-github:1.1.1 .
     - name: Push Docker Image
       run: |
         docker push jdavid198/docker-github:1.1.1
